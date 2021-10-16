@@ -11,8 +11,13 @@ public class Account {
         a.setAge(18);
         a.printDetails();
 
-        System.out.println(a.getName());
-        System.out.println(a.getAge());
+        Account b = new Account();
+        b.setName("Meg");
+        b.setAge(18);
+        b.printDetails();
+
+        //System.out.println(a.getName());
+        //System.out.println(a.getAge());
 
 //setters (set value to variables)
     }
